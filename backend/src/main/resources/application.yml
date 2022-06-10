@@ -53,12 +53,11 @@ spring:
   profiles:
     active: prod
   datasource:
-#    url: jdbc:mysql://j6e104.p.ssafy.io:3306/window?useSSL=false&characterEncoding=UTF-8&serverTimezone=UTC&allowPublicKeyRetrieval=true
-    url: jdbc:mysql://j6e104.p.ssafy.io:3306/window_db?useUnicode=true&characterEncoding=utf8&serverTimezone=Asia/Seoul&zeroDateTimeBehavior=convertToNull&rewriteBatchedStatements=true
-    driver-class-name: com.mysql.cj.jdbc.Driver
+#    url: 
+    url: 
     hikari:
-      username: root1
-      password: root1
+      username:
+      password: 
   jpa:
     hibernate:
       naming:
